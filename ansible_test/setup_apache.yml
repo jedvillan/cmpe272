@@ -1,0 +1,19 @@
+---
+ - name: Install Apache on remote server and configure to show "Hello World" on port 80
+   hosts: all
+   tasks: 
+   - name: Update Repos
+     command: apt update
+   - name: Install Apache
+     apt: name=apache2 update_cache=yes state=latest
+   - name: Start Apache Service
+     service:
+       name: apache2
+       state: started
+   - name: Copy index.html to remote host
+     copy:
+       src: /home/ubuntu/ansible_test/HW1/index.html
+       dest: /var/www/html/index.html
+       owner: ubuntu
+       mode: '0755'
+...
