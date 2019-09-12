@@ -1,0 +1,5 @@
+
+With /etc/ansible/hosts setup with hostname and public key
+
+$ ansible-playbook -k setup_apache.yml --become
+$ ansible-playbook -k uninstall_apache.yml --become
