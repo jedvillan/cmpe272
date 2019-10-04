@@ -1,0 +1,15 @@
+2019-09-22T19:54:39.137+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] MongoDB starting : pid=26866 port=27017 dbpath=/home/ubuntu/projects/payroll/payroll-data/ 64-bit host=ip-172-31-84-161
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] db version v4.0.12
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] git version: 5776e3cbf9e7afe86e6b29e22520ffb6766e95d4
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1  11 Sep 2018
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] modules: none
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten] build environment:
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-09-22T19:54:39.139+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-09-22T19:54:39.140+0000 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/ubuntu/projects/payroll/payroll-data/" }, systemLog: { destination: "file", path: "mongod_logs/mongod.log" } }
+2019-09-22T19:54:39.140+0000 E STORAGE  [initandlisten] Failed to set up listener: SocketException: Address already in use
+2019-09-22T19:54:39.140+0000 I CONTROL  [initandlisten] now exiting
+2019-09-22T19:54:39.140+0000 I CONTROL  [initandlisten] shutting down with code:48
