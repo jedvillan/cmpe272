@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+    head
+        title Tweet Retrieved! 
+        link(rel='stylesheet',href='"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"')
+    body    
+        form(action = "/", method= 'get')
+            button(type='submit') Home 
+        if id
+            h2 Tweet Retrieved 
+            p Tweet verbiage and ID is:
+            p= tweet
+            h1= id 
+        else
+            h2 Error With Id
